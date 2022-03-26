@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "303507465735",
+    "project_id": "fesion-9e68c",
+    "storage_bucket": "fesion-9e68c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:303507465735:android:9c2b51de85307441fcaca2",
+        "android_client_info": {
+          "package_name": "com.example.fasion"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "303507465735-k7huv6ji8fq26vartlali8g0g51ikah1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC52KlnCJ7x82mebqYJGbJqsreeI8cXRcA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "303507465735-k7huv6ji8fq26vartlali8g0g51ikah1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
