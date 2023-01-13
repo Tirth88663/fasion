@@ -52,22 +52,22 @@ class _MenuScreenState extends State<MenuScreen> {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.center,
               children: [
-                Card(
-                  elevation: 5,
-                  color:
-                      MyTheme.isLight ? Color(0xFFffc8dd) : Color(0xFFF086A3),
-                  shape: RoundedRectangleBorder(
-                      borderRadius: BorderRadius.circular(20)),
-                  child: Container(
-                    margin: EdgeInsets.all(10),
-                    height: MediaQuery.of(context).size.height * 0.05,
-                    width: MediaQuery.of(context).size.width,
-                    child: Center(
-                      child: GestureDetector(
-                        onTap: () {
-                          Navigator.of(context).push(MaterialPageRoute(
-                              builder: (context) => TextRecoScreen()));
-                        },
+                GestureDetector(
+                  onTap: () {
+                    Navigator.of(context).push(MaterialPageRoute(
+                        builder: (context) => TextRecoScreen()));
+                  },
+                  child: Card(
+                    elevation: 5,
+                    color:
+                        MyTheme.isLight ? Color(0xFFffc8dd) : Color(0xFFF086A3),
+                    shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(20)),
+                    child: Container(
+                      margin: EdgeInsets.all(10),
+                      height: MediaQuery.of(context).size.height * 0.05,
+                      width: MediaQuery.of(context).size.width,
+                      child: Center(
                         child: Text(
                           "Text Recognition",
                           style: TextStyle(
@@ -80,21 +80,21 @@ class _MenuScreenState extends State<MenuScreen> {
                 SizedBox(
                   height: MediaQuery.of(context).size.height * 0.1,
                 ),
-                Card(
-                  elevation: 5,
-                  color:
-                      MyTheme.isLight ? Color(0xFFffc8dd) : Color(0xFFF086A3),
-                  shape: RoundedRectangleBorder(
-                      borderRadius: BorderRadius.circular(20)),
-                  child: Container(
-                    margin: EdgeInsets.all(10),
-                    height: MediaQuery.of(context).size.height * 0.05,
-                    child: Center(
-                      child: GestureDetector(
-                        onTap: () {
-                          Navigator.of(context).push(MaterialPageRoute(
-                              builder: (context) => LabelerScreen()));
-                        },
+                GestureDetector(
+                  onTap: () {
+                    Navigator.of(context).push(MaterialPageRoute(
+                        builder: (context) => LabelerScreen()));
+                  },
+                  child: Card(
+                    elevation: 5,
+                    color:
+                        MyTheme.isLight ? Color(0xFFffc8dd) : Color(0xFFF086A3),
+                    shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(20)),
+                    child: Container(
+                      margin: EdgeInsets.all(10),
+                      height: MediaQuery.of(context).size.height * 0.05,
+                      child: Center(
                         child: Text(
                           "Image Labeling",
                           style: TextStyle(
